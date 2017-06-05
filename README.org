@@ -1,0 +1,15 @@
+#+TITLE: Zenburn stylesheet for Matplotlib
+#+AUTHOR: Stefanos Carlström
+#+EMAIL: stefanos.carlstrom@gmail.com
+
+Implements [[http://kippura.org/zenburnpage/][Zenburn]] colours for [[https://matplotlib.org/][Matplotlib]].
+
+Matplotlib stylesheets guide:
+https://matplotlib.org/users/style_sheets.html
+
+* Installation instructions
+  Copy or link [[zenburn.mplstyle]] to
+  =mpl_configdir/stylelib/zenburn.mplstyle=, where
+  #+BEGIN_SRC python
+    mpl_configdir = matplotlib.get_configdir()
+  #+END_SRC
